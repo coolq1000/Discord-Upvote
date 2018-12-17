@@ -1,0 +1,17 @@
+{
+    "locations": {
+        "524173145108905984": {
+            "channel": "524167465090154496",
+            "server": "524166801773559808",
+            "roles": {
+                "blender": "Blender",
+                "maya": "Maya",
+                ":thumbs_up:": "Member"
+            }
+        }
+    },
+    "settings": {
+        "refresh": 1,
+        "chunk": 100
+    }
+}

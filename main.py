@@ -76,11 +76,13 @@ async def on_update():
                         # print(reaction.emoji, role, reaction.custom_emoji, emoji_equal(reaction.emoji, role, reaction.custom_emoji))
                         if emoji_equal(reaction.emoji, role, reaction.custom_emoji):
                             if user in reactors:
-                                print('GIVE: {} to {}.'.format(role, user))
-                                await client.add_roles(reaction.message.server.get_member(user.id), role_obj)
+                                if role_obj not in user.roles:
+                                    print('GIVE: {} to {}.'.format(role, user))
+                                    await client.add_roles(reaction.message.server.get_member(user.id), role_obj)
                             else:
-                                print('TAKE: {} from {}.'.format(role, user))
-                                await client.remove_roles(user, role_obj)
+                                if role_obj in user.roles:
+                                    print('TAKE: {} from {}.'.format(role, user))
+                                    await client.remove_roles(user, role_obj)
             
             # for reaction in msg.reactions:
             #     for role in roles:

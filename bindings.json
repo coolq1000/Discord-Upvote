@@ -4,9 +4,45 @@
             "channel": "524167465090154496",
             "server": "524166801773559808",
             "roles": {
-                "blender": "Blender",
-                "maya": "Maya",
                 ":thumbs_up:": "Member"
+            }
+        },
+
+        "524373036699353099": {
+            "channel": "524168266118070272",
+            "server": "524166801773559808",
+            "roles": {
+                "blender": "Blender",
+                "maya": "Maya"
+            }
+        },
+
+        "524373220850401291": {
+            "channel": "524373111160832015",
+            "server": "524166801773559808",
+            "roles": {
+                "GreenLight": "Colour1",
+                "GreenLight2": "Colour2",
+                "BlueLight": "Colour3",
+                "Purple": "Colour4",
+                "Pink": "Colour5",
+                "Yellow": "Colour6",
+                "Orange": "Colour7",
+                "Red": "Colour8",
+                "Grey": "Colour9",
+                "DeepGrey": "Colour10"
+      
+            }
+        },
+
+        "524377093732302853": {
+            "channel": "524373111160832015",
+            "server": "524166801773559808",
+            "roles": {
+                "Level1": "Expertise : Beginner",
+                "Level2": "Expertise : Intermediate",
+                "Level3": "Expertise : Advanced"   
+      
             }
         }
     },

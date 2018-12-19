@@ -42,7 +42,6 @@ async def on_update():
                         if get == None:
                             get = emoji.emojize(role)
                         await client.add_reaction(msg, get)
-                        await asyncio.sleep(bindings['settings']['placement_time'])
 
                 for i, reaction in enumerate(msg.reactions):
                     if len(cache[message]) <= i:

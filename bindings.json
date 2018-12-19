@@ -48,6 +48,7 @@
     },
     "settings": {
         "refresh": 1,
-        "chunk": 100
+        "chunk": 100,
+        "placement_time": 1
     }
 }
